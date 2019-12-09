@@ -1,4 +1,4 @@
-.card-header{
+.header{
     background-image:url("/IP3/assets/backgrounds/h_img.jpg");
     background-repeat: no-repeat;
     height: 1000px;
@@ -19,6 +19,9 @@ h3,p{
 h4{
     font-size: 25px;
     text-align: center;
+}
+h5{
+    font-size:15px ;
 }
 .card-about{
     text-align: center;
@@ -41,4 +44,7 @@ h4{
     flex-direction: row;
     justify-content: space-around;
 }
-
+.row{
+    display:flex;
+    flex-direction: row;
+}
