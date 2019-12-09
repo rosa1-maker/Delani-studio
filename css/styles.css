@@ -47,4 +47,8 @@ h5{
 .row{
     display:flex;
     flex-direction: row;
+    padding-left:60px;
+}
+ p h4{
+    display:hide;
 }
