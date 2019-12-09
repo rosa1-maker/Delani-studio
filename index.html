@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="js/scripts.js">
     <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Graduate&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/sripts.js"></script>
     <title>Delani Studio</title>
 
 </head>
@@ -18,13 +20,13 @@
         <div class="header">
             <div class="logo"><img src="IP3/assets/logo/logo.png"></div>
             <h1>WELCOME</h1>
-                        <h2>TO DELANI STUDIO </h2>
+            <h2>TO DELANI STUDIO </h2>
             <h3>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h3>
-
+            <img class='mouse' src="IP3/assets/mouse_click.png">
         </div>
         <div class="card-about">
             <h4>ABOUT US</h4>
-            <p>when you work with us, you are part of a team of committed collaborators. All aspects pf our softwarae
+            <p>when you work with us, you are part of a team of committed collaborators. All aspects pf our software
                 development process are integrated, interactive<br>and agile.</p>
             <p>Our approach unifies design, development and product management to create exceptional products.</p>
             <p>We start each project by understanding your business goals, the user's needs and the product
@@ -32,7 +34,7 @@
             <p>Then we help translate them into effective and elegant solutions.</p>
         </div>
         <div class="card-services">
-            <h4>Services</h4>
+            <h4>SERVICES</h4>
             <p>Before we sign a contract or write a line of code , our team will spend the neccessary time needed to
                 understand your product vision .</p><br>
             <p>The outcome of this scoping session ia proposal or high-level statement of work. </p>
@@ -65,7 +67,7 @@
                         test-driven development and pair programming.</p>
                     <h5>DEVELOPMENT</h5>
                 </div>
-                <div class="w3-third w3-center w3-margin-bottom">
+                <div class="bottom">
                     <img src="IP3/assets/services_icons/product_icon.png">
                     <p>Planning and developing is iterrative.Because we are<br>
                         constantly coding and testing, the products we build are<br>
@@ -78,29 +80,81 @@
 
             <h4>PORTFOLIO</h4>
             <div class="row">
-                <p><ul class="col-3"><img src="IP3/assets/portfolio/work4.jpg"></ul>black</p>
-                <p><ul class="col-3"><img src="IP3/assets/portfolio/work2.jpg"></ul>yellow</p>
-                <p><ul class="col-3"><img src="IP3/assets/portfolio/work3.jpg"></ul>Ontario</p>
-                <p><ul class="col-3"><img src="IP3/assets/portfolio/work1.jpg"></ul>Jim carrey</p>
+                <div class="col" id="#cl">
+                    <img src="IP3/assets/portfolio/work4.jpg">
+                    <div>
+                        <div class="text" id="#txt" style="display:none">Delani Sudio</div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="IP3/assets/portfolio/work2.jpg">
+                    <div></div>
+                </div>
+                <div class="col">
+                    <img src="IP3/assets/portfolio/work3.jpg">
+                    <div>
+                        <div class="text" style="display:none">Delani Sudio</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="IP3/assets/portfolio/work1.jpg">
+                    <div>
+                        <div class="text" style="display:none">Delani Sudio</div>
+                    </div>
+                </div>
             </div>
             <div class="row">
-                <ul class="col-3"><img src="IP3/assets/portfolio/work5.jpg"></ul>
-                <ul class="col-3"><img src="IP3/assets/portfolio/work6.jpg"></ul>
-                <ul class="col-3"><img src="IP3/assets/portfolio/work7.jpg"></ul>
-                <ul class="col-3"><img src="IP3/assets/portfolio/work8.jpg"></ul>
+                <div class="col">
+                    <img src="IP3/assets/portfolio/work5.jpg">
+                    <div>
+                        <div class="text" style="display:none">Delani Sudio</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="IP3/assets/portfolio/work6.jpg">
+                    <div>
+                        <div class="text" style="display:none">Delani Sudio</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="IP3/assets/portfolio/work7.jpg">
+                    <div>
+                        <div class="text" style="display:none">Delani Sudio</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="IP3/assets/portfolio/work8.jpg">
+                    <div>
+                        <div class="text" style="display:none">Delani Sudio</div>
+                    </div>
+                </div>
             </div>
             <div class="card-contacts">
                 <h4>CONTACTS</h4>
-                <p>
-                <label>Name</label>
-                <button type="button" input="text" ></button><br>
-            </p>
-                <label>Email</label>
-                <button type="button" input="text"></button><br>
-                <label></label>
-                <button type="button" input="text"></button><br>
+                
+                <form id="form">
+                    <div class="row">
+                        <div class="col-md-2 form"></div>
+                        <input class="col-md-4 form-control name" type="text" id="name" name="name"
+                            placeholder="Name..." required><br><br>
+                        <input class="col-md-4 form-control email" type="email" id="email" name="email"
+                            placeholder="Email..." required>
+                        <div class="col-md-2">
+                        </div>
+                    </div>
+                    <div class="row input">
+                        <div class="col-md-2"></div>
+                        <textarea class="form-control col-md-8 text" rows="12" name="message" id="message"
+                            placeholder="Your message here..."></textarea>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <button class="btn btn-success mx-auto d-block submit" id="okButton" type="submit">Submit</button>
+                    <br>
+                </form>
+
+                </form>
             </div>
-        </div>
 </body>
 
 
