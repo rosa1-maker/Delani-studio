@@ -1,6 +1,6 @@
 # Delani-studio
 <hi>Delani-Studio</h1>
-<h2>Description
+<h2>Description</h2>
 <p>I have created this project as a way to present my skills and ability in web designing. This site acts as a platform of my journery in web development.</p>
 
 <h2>Code Examples</h2>
