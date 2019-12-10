@@ -134,6 +134,10 @@ h5 {
     color:white;
 }
 .icons{
-  margin-left:400px;
+  margin-left:500px;
+  padding-top: 50px;
   margin: solid black;
+}
+.footer{
+    text-align: center;
 }
