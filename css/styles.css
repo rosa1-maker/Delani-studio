@@ -9,8 +9,10 @@
     color: whitesmoke;
     font-family: 'Graduate'serif;
     text-align: center;
-    padding-top: 300px;
-    line-height: 400px;
+    padding-top: 200px;
+    line-height: 200px;
+    height: 100vh;
+    width: 100%;
 }
 
 h1 {
@@ -52,6 +54,8 @@ h5 {
     color: white;
     height: 600px;
     padding-top: 50px;
+    width: 100%;
+
 }
 
 .card-design {
