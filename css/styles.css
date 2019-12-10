@@ -1,8 +1,9 @@
-*{
+* {
     overflow-x: hidden;
 }
+
 .head {
-    background-image: url("/IP3/assets/backgrounds/h_img.jpg");
+    background-image: url("../IP3/assets/backgrounds/h_img.jpg");
     background-repeat: no-repeat;
     color: whitesmoke;
     font-family: 'Graduate'serif;
@@ -44,7 +45,7 @@ h5 {
 
 .card-services {
     text-align: center;
-    background-image: url("/IP3/assets/backgrounds/s_image.jpg");
+    background-image: url("../IP3/assets/backgrounds/s_image.jpg");
     background-repeat: no-repeat;
     color: white;
     height: 600px;
@@ -65,7 +66,9 @@ h5 {
     padding-left: 50px;
 }
 
-.design-row p, .card-dev p,.bottom p{
+.design-row p,
+.card-dev p,
+.bottom p {
     display: none;
 }
 
@@ -77,7 +80,7 @@ h5 {
 
 .col .text:hover {
     display: none;
-    opacity:0.5;
+    opacity: 0.5;
     background-color: blueviolet;
     width: auto;
     position: absolute;
@@ -87,18 +90,20 @@ h5 {
     height: 100%;
     padding: 25px;
 }
-.mouse{
-    padding-top:200px;
+
+.mouse {
+    padding-top: 200px;
 }
 
- .col img:hover {
+.col img:hover {
     opacity: 0.5;
     filter: alpha(opacity=50);
-    content:Delani Studio; 
-    text-decoration:black;
-  }
-  .card-contacts{
-    background-image: url("/IP3/assets/backgrounds/c_image.jpg");
+    content: Delani Studio;
+    text-decoration: black;
+}
+
+.card-contacts {
+    background-image: url("../IP3/assets/backgrounds/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -106,36 +111,41 @@ h5 {
     box-sizing: border-box;
     flex-direction: column;
     text-align: center;
-    justify-content:space-between;
-    
+    justify-content: space-between;
+
 }
-#name{
-    width:400px;
+
+#name {
+    width: 400px;
     height: 30px;
     background: transparent;
     padding: 20px;
     margin: 20px;
-    color:white;
+    color: white;
 }
-#email{
-    width:400px;
+
+#email {
+    width: 400px;
     height: 30px;
     background: transparent;
     padding: 20px;
     margin: 20px;
-    color:white;
+    color: white;
 }
-#message{
+
+#message {
     background: transparent;
     padding: 20px;
     margin: 20px;
-    color:white;
+    color: white;
 }
-.icons{
-  margin-left:500px;
-  padding-top: 50px;
-  margin: solid black;
+
+.icons {
+    margin-left: 500px;
+    padding-top: 50px;
+    margin: solid black;
 }
-.footer{
+
+.footer {
     text-align: center;
 }
