@@ -1,11 +1,16 @@
-.header {
+*{
+    overflow-x: hidden;
+}
+.head {
     background-image: url("/IP3/assets/backgrounds/h_img.jpg");
     background-repeat: no-repeat;
-    height: 1000px;
+    background-size: cover;
     color: whitesmoke;
     font-family: 'Graduate'serif;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 300px;
+    line-height: 400px;
+    padding-bottom: 200px;
 }
 
 h1 {
@@ -94,13 +99,41 @@ h5 {
     content:Delani Studio; 
     text-decoration:black;
   }
-  #form{
-    background-image: url("IP3/assets/backgrounds/c_image");
+  .card-contacts{
+    background-image: url("/IP3/assets/backgrounds/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     margin: 100px auto 0;
-    margin-top: 350px;
     box-sizing: border-box;
     flex-direction: column;
-  }
+    text-align: center;
+    justify-content:space-between;
+    
+}
+#name{
+    width:400px;
+    height: 30px;
+    background: transparent;
+    padding: 20px;
+    margin: 20px;
+    color:white;
+}
+#email{
+    width:400px;
+    height: 30px;
+    background: transparent;
+    padding: 20px;
+    margin: 20px;
+    color:white;
+}
+#message{
+    background: transparent;
+    padding: 20px;
+    margin: 20px;
+    color:white;
+}
+.icons{
+  margin-left:400px;
+  margin: solid black;
+}
